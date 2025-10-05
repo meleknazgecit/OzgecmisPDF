@@ -1,15 +1,16 @@
 ### IntelliJ IDEA ###
+.idea/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.kotlin
+.kotlin/
 
 ### Eclipse ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 bin/
@@ -29,10 +30,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-# Gereksiz dosyalar
-foto.png
-Ozgecmis.pdf
+### Java / PDF Projesi İçin ###
 itextpdf-5.5.13.jar
 fonts/
-.idea/
-out/
+foto.png
