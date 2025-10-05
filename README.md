@@ -34,7 +34,7 @@ java -cp ".;itextpdf-5.5.13.jar;src" Ozgecmis
 ## Özelleştirme
 Ozgecmis.java dosyasındaki aşağıdaki bölümleri kendi bilgilerinizle güncelleyin:
 **// Kişi bilgileri**
-java
+
 Kisi kisi = new Kisi(
     "Adınız Soyadınız",
     "email@example.com",
@@ -45,15 +45,21 @@ Kisi kisi = new Kisi(
 );
 
 **// Eğitim bilgileri**
+
 egitimler.add(new Egitim("Üniversite Adı", "Bölüm", "2024 - 2028"));
 
 **// İş deneyimleri**
+
 deneyimler.add(new IsDeneyimi("Şirket Adı", "Pozisyon", "2024 - 2025", "Açıklama"));
 
 **// Yetenekler**
+
 yetenekler.add("Java");
+
 yetenekler.add("Spring Boot");
+
 Fotoğraf Ekleme
+
 Proje kök dizinine foto.png adında bir fotoğraf ekleyin
 
 Boyut: 140x160 piksel önerilir
