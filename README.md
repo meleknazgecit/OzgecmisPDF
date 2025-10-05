@@ -13,18 +13,6 @@ Bu proje, Java ve iTextPDF kütüphanesi kullanarak dinamik olarak özgeçmiş (
 - ✅ Yetenekler listesi
 - ✅ Kariyer hedefleri bölümü
 - 
-## Proje Yapısı
-OzgecmisPDF/
-├── src/
-│ ├── Ozgecmis.java
-│ ├── Kisi.java
-│ ├── Egitim.java
-│ └── IsDeneyimi.java
-├── fonts/
-│ └── DejaVuSans.ttf
-├── foto.png
-└── Ozgecmis_ozel.pdf (oluşturulan dosya)
-
 ## Kurulum ve Çalıştırma
 
 ### 1. Gereksinimler
@@ -36,11 +24,11 @@ Proje kök dizininde `fonts/` klasörü oluşturun ve `DejaVuSans.ttf` font dosy
 
 ### 3. Derleme ve Çalıştırma
 
-**Windows için:**
-# Java dosyalarını derle
+*Windows için:*
+#### Java dosyalarını derle
 javac -cp "itextpdf-5.5.13.jar" src/*.java
 
-# Programı çalıştır
+#### Programı çalıştır
 java -cp ".;itextpdf-5.5.13.jar;src" Ozgecmis
 
 ## Özelleştirme
@@ -73,7 +61,7 @@ Boyut: 140x160 piksel önerilir
 Format: PNG veya JPG
 
 ## Çıktı Örneği
-- Oluşturulan PDF şu bölümleri içerir:
+ Oluşturulan PDF şu bölümleri içerir:
 
 - Kişisel Bilgiler (Fotoğraflı)
 
