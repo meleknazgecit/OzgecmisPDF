@@ -33,6 +33,7 @@ java -cp ".;itextpdf-5.5.13.jar;src" Ozgecmis
 
 ## Özelleştirme
 Ozgecmis.java dosyasındaki aşağıdaki bölümleri kendi bilgilerinizle güncelleyin:
+
 **// Kişi bilgileri**
 
 Kisi kisi = new Kisi(
@@ -58,7 +59,7 @@ yetenekler.add("Java");
 
 yetenekler.add("Spring Boot");
 
-Fotoğraf Ekleme
+**//Fotoğraf Ekleme**
 
 Proje kök dizinine foto.png adında bir fotoğraf ekleyin
 
